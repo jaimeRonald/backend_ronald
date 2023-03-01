@@ -76,6 +76,11 @@ class BookController extends Controller
     public function destroy(Book $book)
     {
         $book->delete();
+
+        $variable= 12+20;
+
         return response()->noContent();
+
+        
     }
 }
