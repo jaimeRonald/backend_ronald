@@ -77,7 +77,7 @@ class BookController extends Controller
     {
         $book->delete();
 
-        $variable= 12+20;
+        $variable= 60 + 1000;
 
         return response()->noContent();
 
